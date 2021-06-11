@@ -2,6 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+- fork repo
+- create heroku account
+- deploy from github repo
+- configure postgres on heroku
+
 First, run the development server:
 
 ```bash

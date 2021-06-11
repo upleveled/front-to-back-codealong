@@ -25,6 +25,12 @@ a {
   color: aliceblue;
   align-items: center;
   padding-left: 20px;
+  width: 100vw;
+  border: none;
+  margin: 0;
+  padding: 5px;
+
+  text-align: left;
 }
 .song-container:hover {
   background-color: rgb(173, 172, 172);

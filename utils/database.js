@@ -1,10 +1,12 @@
 import camelcaseKeys from 'camelcase-keys';
-import dotenvSafe from 'dotenv-safe';
 import postgres from 'postgres';
+import setPostgresDefaultsOnHeroku from './setPostgresDefaultsOnHeroku';
 
-// Read the PostgreSQL secret connection information
-// (host, database, username, password) from the .env file
-dotenvSafe.config();
+setPostgresDefaultsOnHeroku();
+
+// Read in the values from the .env file
+// (which should be ignored in Git!)
+require('dotenv-safe').config();
 
 // Connect only once to the database
 // https://github.com/vercel/next.js/issues/7811#issuecomment-715259370
@@ -22,11 +24,11 @@ function connectOneTimeToDatabase() {
     }
     sql = globalThis.__postgresSqlClient;
   }
-
   return sql;
 }
-const sql = connectOneTimeToDatabase();
 
+// Connect to PostgreSQL
+const sql = connectOneTimeToDatabase();
 export async function getAlbums() {
   const albums = await sql`
   SELECT * FROM albums
