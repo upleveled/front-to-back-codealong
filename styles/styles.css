@@ -1,0 +1,108 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: rgb(51, 51, 51);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.song-container,
+.song-header {
+  background-color: rgb(17, 17, 17);
+  display: grid;
+  grid-template-columns: 4fr 2fr 0.5fr 2fr 0.5fr 1fr;
+  padding: 0.5em;
+  color: aliceblue;
+  align-items: center;
+  padding-left: 20px;
+}
+.song-container:hover {
+  background-color: rgb(173, 172, 172);
+  color: rgb(27, 27, 27);
+}
+.song-header {
+  background-color: rgb(112, 112, 112);
+  color: rgb(231, 231, 231);
+  padding: 5px;
+  padding-left: 20px;
+  position: sticky;
+  top: 0;
+}
+
+.song-player {
+  color: white;
+  margin: 1em auto;
+  height: 10em;
+  max-width: 50vw;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(17, 17, 17);
+  border-radius: 2px;
+  padding: 2em;
+}
+
+.audio-element {
+  display: flex;
+  justify-content: center;
+}
+
+.song-info {
+  text-align: center;
+}
+
+.song-list {
+  height: 42em;
+  overflow: scroll;
+}
+
+.song-play {
+  cursor: pointer;
+  justify-self: left;
+  border: none;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  padding: 0px;
+  background-color: rgb(27, 27, 27);
+}
+.song-play:hover {
+  transform: scale(1.05);
+}
+
+header {
+  background-color: rgba(129, 1, 1, 0.842);
+  color: #fff;
+  margin: 0;
+  height: 8.5vh;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.filter {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.filter-section {
+  margin: 0 auto;
+  width: 50vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
+  margin-bottom: 1em;
+}
