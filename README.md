@@ -1,7 +1,5 @@
-# Welcome to the UpLeveled Front to Back Codealong
+# Final App Version
 
-In this exercise we will create a full stack music app.
+**⚠️ NOTE: This is the final version of the app exercise, Please use it as reference only.**
 
-![image](https://user-images.githubusercontent.com/61600906/122943152-0f86e600-d377-11eb-92cf-d9d1043aadca.png)
-
-You will find full instructions on the learning platform.
+If you need the **starting point** code, please use [the `main` branch](https://github.com/upleveled/front-to-back-codealong).
