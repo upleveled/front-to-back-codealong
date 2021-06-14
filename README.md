@@ -16,6 +16,12 @@ Remember we are in a safe environment
 
 <img src="https://user-images.githubusercontent.com/61600906/121863381-1751e500-ccfc-11eb-96e3-fe306821e6e4.png" alt="fork repo button" width="400"/>
 
+2. Clone the repo.
+
+- To do this first copy the `url` of the repo, or get it from the download button in github.
+
+<img src="https://user-images.githubusercontent.com/61600906/121905880-dd4c0780-cd2a-11eb-9ef2-3ea0542419e1.png" alt="fork repo button" width="400"/>
+
 ## Getting Started
 
 - fork repo
