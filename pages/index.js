@@ -1,107 +1,39 @@
-import { useState } from 'react';
-import { AudioPlayer } from '../components/AudioPlayer';
-import { FilterInput } from '../components/FilterInput';
-
-export default function Home({ albums, artists, genres, songs }) {
-  const [genreFilter, setGenreFilter] = useState('');
-  const [artistFilter, setArtistFilter] = useState('');
-  const [albumFilter, setAlbumFilter] = useState('');
-  const [activeSong, setActiveSong] = useState();
+export default function Home() {
+  // -------------------------------------
+  // ---------- STARTING SECTION ---------
+  // -------------------------------------
+  //
+  // --------------- Step 1 --------------
+  //
+  // In this exercise you are going to build a full-stack music App.
+  //
+  // First we are going to work on the front-end of the app creating a user interface:
+  //
+  //   1. Explore the prepared code for the app inside of directories assets and components
+  //   2. Using the AudioPlayer component allow the user to reproduce a song.
+  //   3. Using the songList array allow the user to choose which song reproduce.
+  //   4. Using the FilterInput component and assets data allow the user to filter by genre, artist or album.
+  //
+  // Once The user interface is ready you need to setup your postgres database.
+  // TODO: ADD UpLeveled leaning LINK OR INSTRUCTIONS TO WHERE TO CONTINUE
+  // - after that please go to the next step in the first file in migrations directory
 
   return (
     <div>
-      <header>
-        <img src="/play.svg" alt="play" />
-        <h1>SOUNDIFY</h1>
-      </header>
-      <AudioPlayer activeSong={activeSong} />
-      <section className="filter-section">
-        <FilterInput
-          options={genres}
-          value={genreFilter}
-          filterSetter={setGenreFilter}
-          name="genre"
-        />
-        <FilterInput
-          options={artists}
-          value={artistFilter}
-          filterSetter={setArtistFilter}
-          name="artist"
-        />
-        <FilterInput
-          options={albums}
-          value={albumFilter}
-          filterSetter={setAlbumFilter}
-          name="album"
-        />
-      </section>
-      <div className="song-list">
-        <div className="song-header">
-          <div>name</div>
-          <div>album </div>
-          <div>Year </div>
-          <div>Artist </div>
-          <div>play</div>
-          <div>genre</div>
-        </div>
-        {songs
-          .filter((song) => {
-            let isVisible = true;
-            if (genreFilter && genreFilter !== song.genre) {
-              isVisible = false;
-            }
-            if (artistFilter && artistFilter !== song.artist) {
-              isVisible = false;
-            }
-            if (albumFilter && albumFilter !== song.album) {
-              isVisible = false;
-            }
-            return isVisible;
-          })
-          .map((song) => {
-            return (
-              <div
-                key={song.id}
-                className="song-container"
-                onDoubleClick={() => {
-                  setActiveSong(song);
-                }}
-              >
-                <div className="song-title">{song.name}</div>
-                <div>{song.album}</div>
-                <div>{song.release}</div>
-                <div>{song.artist}</div>
-                <button
-                  className="song-play"
-                  onClick={() => {
-                    setActiveSong(song);
-                  }}
-                >
-                  <img src="/play.svg" alt="play" />
-                </button>
-                <div>{song.genre}</div>
-              </div>
-            );
-          })}
-      </div>
+      <h1>SOUNDIFY</h1>
     </div>
   );
 }
 
-export async function getServerSideProps() {
-  const { getAlbums, getArtists, getGenres, getSongs } = await import(
-    '../utils/database'
-  );
-  const albums = await getAlbums();
-  const artists = await getArtists();
-  const genres = await getGenres();
-  const songs = await getSongs();
-  return {
-    props: {
-      albums,
-      artists,
-      genres,
-      songs,
-    },
-  };
-}
+// ⚠️⚠️⚠️
+// ⚠️⚠️⚠️ PLEASE IGNORE this section until you have completed steps  1, 2 and 3 ⚠️⚠️⚠️
+// ⚠️⚠️⚠️
+//
+// --------------- Step 4 --------------
+//
+// Now we are going to connect our front-end and back-end.
+// Using Get Server Side Props (aka. GSSp) get the app data from the database instead of the assets files.
+//
+// 1. Import the database Util functions from utils/database.js
+// 2. Get the data for the app. (albumList, artistList, genreList, songList)
+// 3. Pass the data to the Page Component through props object

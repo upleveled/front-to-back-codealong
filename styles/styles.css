@@ -16,6 +16,10 @@ a {
   box-sizing: border-box;
 }
 
+h1 {
+  color: rgb(231, 231, 231);
+}
+
 .song-container,
 .song-header {
   background-color: rgb(17, 17, 17);
