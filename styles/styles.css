@@ -21,15 +21,12 @@ a {
   background-color: rgb(17, 17, 17);
   display: grid;
   grid-template-columns: 4fr 2fr 0.5fr 2fr 0.5fr 1fr;
-  padding: 0.5em;
   color: aliceblue;
   align-items: center;
-  padding-left: 20px;
   width: 100vw;
   border: none;
   margin: 0;
-  padding: 5px;
-
+  padding: 0.7em 0;
   text-align: left;
 }
 .song-container:hover {
@@ -45,10 +42,14 @@ a {
   top: 0;
 }
 
+.song-title {
+  padding-left: 20px;
+}
+
 .song-player {
   color: white;
-  margin: 1em auto;
-  height: 10em;
+  margin: 2.5vh auto;
+  height: 10vw;
   max-width: 50vw;
   display: grid;
   align-items: center;
@@ -68,7 +69,8 @@ a {
 }
 
 .song-list {
-  height: 42em;
+  margin-top: 5vh;
+  height: 60vh;
   overflow: scroll;
 }
 
@@ -94,6 +96,11 @@ header {
   display: flex;
   align-items: center;
   padding-left: 20px;
+}
+
+header img {
+  width: 3em;
+  margin-right: 1em;
 }
 
 .filter {

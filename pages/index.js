@@ -11,6 +11,7 @@ export default function Home({ albums, artists, genres, songs }) {
   return (
     <div>
       <header>
+        <img src="/play.svg" alt="play" />
         <h1>SOUNDIFY</h1>
       </header>
       <AudioPlayer activeSong={activeSong} />
@@ -66,7 +67,7 @@ export default function Home({ albums, artists, genres, songs }) {
                   setActiveSong(song);
                 }}
               >
-                <div className="song-tittle">{song.name}</div>
+                <div className="song-title">{song.name}</div>
                 <div>{song.album}</div>
                 <div>{song.release}</div>
                 <div>{song.artist}</div>
