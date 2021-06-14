@@ -1,4 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome to the UpLeveled Back to Front Exercise
+
+This exercise is designed to be a code alone workshop. Please feel free to ask any question when needed.
+
+Remember we are in a safe environment
+
+## Step by Step Guide
+
+1. Fork the repo.
+
+- To do this click the `fork` button at the top-right corner of this webpage
+
+<img src="https://user-images.githubusercontent.com/61600906/121862810-7b27de00-ccfb-11eb-9085-ed12e30a3a43.png" alt="fork repo button" width="400"/>
+
+- Make sure the repo you are redirected have your github username as prefix
+
+<img src="https://user-images.githubusercontent.com/61600906/121863381-1751e500-ccfc-11eb-96e3-fe306821e6e4.png" alt="fork repo button" width="400"/>
 
 ## Getting Started
 
