@@ -25,26 +25,26 @@ Remember we are in a safe environment
 
 - Give the app a name and choose Europe as region
 
-<img src="https://user-images.githubusercontent.com/61600906/121916417-687dcb00-cd34-11eb-8035-7ccbf89bd8f3.png" alt="fork repo button" width="400"/>
+<img src="https://user-images.githubusercontent.com/61600906/121916417-687dcb00-cd34-11eb-8035-7ccbf89bd8f3.png" alt="fork repo button" width="700"/>
 
 - Click `create app`.
 - Use **GitHub** as deployment method, search for your forked repo and connect to it.
 
-<img src="https://user-images.githubusercontent.com/61600906/121917042-fd80c400-cd34-11eb-8bcf-a2249a92fc0d.png" alt="fork repo button" width="400"/>
+<img src="https://user-images.githubusercontent.com/61600906/121917042-fd80c400-cd34-11eb-8bcf-a2249a92fc0d.png" alt="fork repo button" width="700"/>
 
 - Enable Automatic deploy and deploy `main` branch.
 
-<img src="https://user-images.githubusercontent.com/61600906/122389401-31482d80-cf71-11eb-89d8-c009072913df.png" alt="fork repo button" width="400"/>
+<img src="https://user-images.githubusercontent.com/61600906/122389401-31482d80-cf71-11eb-89d8-c009072913df.png" alt="fork repo button" width="700"/>
 
 4. Setup Database on heroku.
 
 - Move to the overview tab and click on configure Add-ons
 
-<img src="https://user-images.githubusercontent.com/61600906/122390527-61440080-cf72-11eb-9a1d-c0ce34486ede.png" alt="fork repo button" width="400"/>
+<img src="https://user-images.githubusercontent.com/61600906/122390527-61440080-cf72-11eb-9a1d-c0ce34486ede.png" alt="fork repo button" width="700"/>
 
 - Search for Heroku Postgres addon and select it.
 
-<img src="https://user-images.githubusercontent.com/61600906/122391092-f3e49f80-cf72-11eb-84dd-db380ad68f49.png" alt="fork repo button" width="400"/>
+<img src="https://user-images.githubusercontent.com/61600906/122391092-f3e49f80-cf72-11eb-84dd-db380ad68f49.png" alt="fork repo button" width="700"/>
 
 - Choose the `Hobby Dev - Free` plan and click `submit order form` button.
 
