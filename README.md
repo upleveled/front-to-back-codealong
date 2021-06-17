@@ -4,7 +4,7 @@ This exercise is designed to be a code alone workshop. Please feel free to ask a
 
 Remember we are in a safe environment
 
-## Step by Step Guide
+## Heroku setup Guide
 
 1. Fork the repo.
 
@@ -16,13 +16,7 @@ Remember we are in a safe environment
 
 <img src="https://user-images.githubusercontent.com/61600906/121863381-1751e500-ccfc-11eb-96e3-fe306821e6e4.png" alt="fork repo button" width="400"/>
 
-2. Clone the repo.
-
-- To do this first copy the `url` of the repo, or get it from the download button in github.
-
-<img src="https://user-images.githubusercontent.com/61600906/121905880-dd4c0780-cd2a-11eb-9ef2-3ea0542419e1.png" alt="fork repo button" width="400"/>
-
-3. Deploy to heroku.
+2. Deploy to heroku.
 
 - Sign up or Log in to [heroku](https://id.heroku.com/login)
 - Create a new app clicking the `New` button on the top-right corner of the webpage.
@@ -38,39 +32,62 @@ Remember we are in a safe environment
 
 <img src="https://user-images.githubusercontent.com/61600906/121917042-fd80c400-cd34-11eb-8bcf-a2249a92fc0d.png" alt="fork repo button" width="400"/>
 
-## Getting Started
+- Enable Automatic deploy and deploy `main` branch.
 
-- fork repo
-- create heroku account
-- deploy from github repo
+<img src="https://user-images.githubusercontent.com/61600906/122389401-31482d80-cf71-11eb-89d8-c009072913df.png" alt="fork repo button" width="400"/>
 
-First, run the development server:
+4. Setup Database on heroku.
 
-```bash
-npm run dev
-# or
+- Move to the overview tab and click on configure Add-ons
+
+<img src="https://user-images.githubusercontent.com/61600906/122390527-61440080-cf72-11eb-9a1d-c0ce34486ede.png" alt="fork repo button" width="400"/>
+
+- Search for Heroku Postgres addon and select it.
+
+<img src="https://user-images.githubusercontent.com/61600906/122391092-f3e49f80-cf72-11eb-84dd-db380ad68f49.png" alt="fork repo button" width="400"/>
+
+- Choose the `Hobby Dev - Free` plan and click `submit order form` button.
+
+<img src="https://user-images.githubusercontent.com/61600906/122391239-15de2200-cf73-11eb-941c-fce95e3d939b.png" alt="fork repo button" width="400"/>
+
+## Local setup Guide
+
+1. Clone the repo.
+
+- To do this first copy the `url` of the repo, or get it from the download button in github.
+
+<img src="https://user-images.githubusercontent.com/61600906/121905880-dd4c0780-cd2a-11eb-9ef2-3ea0542419e1.png" alt="fork repo button" width="400"/>
+
+- In your terminal go to your projects directory and run this command:
+
+```sh
+ git clone <Repo URL>
+```
+
+<img src="https://user-images.githubusercontent.com/61600906/122393932-b46b8280-cf75-11eb-9a2a-a594a06368cc.png" alt="fork repo button"/>
+
+- Move into the local repo directory running this command:
+
+```sh
+cd front-to-back-lecture-app/
+```
+
+- Install the dependencies with:
+
+```sh
+yarn install
+```
+
+- Open the project in vs-code with:
+
+```sh
+code .
+```
+
+- Start the development server with:
+
+```sh
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- In vs-code move to `pages/index.js` file to start with the exercise.
