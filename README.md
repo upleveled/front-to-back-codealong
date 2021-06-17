@@ -22,12 +22,27 @@ Remember we are in a safe environment
 
 <img src="https://user-images.githubusercontent.com/61600906/121905880-dd4c0780-cd2a-11eb-9ef2-3ea0542419e1.png" alt="fork repo button" width="400"/>
 
+3. Deploy to heroku.
+
+- Sign up or Log in to [heroku](https://id.heroku.com/login)
+- Create a new app clicking the `New` button on the top-right corner of the webpage.
+
+<img src="https://user-images.githubusercontent.com/61600906/121916076-1c328b00-cd34-11eb-854f-b37677a3d880.png" alt="fork repo button" width="400"/>
+
+- Give the app a name and choose Europe as region
+
+<img src="https://user-images.githubusercontent.com/61600906/121916417-687dcb00-cd34-11eb-8035-7ccbf89bd8f3.png" alt="fork repo button" width="400"/>
+
+- Click `create app`.
+- Use **GitHub** as deployment method, search for your forked repo and connect to it.
+
+<img src="https://user-images.githubusercontent.com/61600906/121917042-fd80c400-cd34-11eb-8bcf-a2249a92fc0d.png" alt="fork repo button" width="400"/>
+
 ## Getting Started
 
 - fork repo
 - create heroku account
 - deploy from github repo
-- configure postgres on heroku
 
 First, run the development server:
 
