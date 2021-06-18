@@ -10,9 +10,10 @@ export default function Home() {
   // First we are going to work on the front-end of the app creating a user interface:
   //
   //   1. Explore the prepared code for the app inside of directories assets and components
-  //   2. Using the AudioPlayer component allow the user to reproduce a song.
-  //   3. Using the songList array allow the user to choose which song reproduce.
-  //   4. Using the FilterInput component and assets data allow the user to filter by genre, artist or album.
+  //   2. Add a header around the h1 Element and add an img with source "/play.svg"
+  //   3. Using the AudioPlayer component allow the user to reproduce a song.
+  //   4. Using the songList array allow the user to choose which song reproduce.
+  //   5. Using the FilterInput component and assets data allow the user to filter by genre, artist or album.
   //
   // Once The user interface is ready you need to setup your postgres database.
   // TODO: ADD UpLeveled leaning LINK OR INSTRUCTIONS TO WHERE TO CONTINUE
