@@ -11,11 +11,10 @@ export async function getArtists() {
   // add code here...
 }
 
-// After this task is complete
-// - add to "scripts" inpackage.json
-//    - "heroku-postbuild": "yarn migrate up && yarn build",
-// -
-// move to pages/index.js file for the step 4 (code for step 4 is at the end of the file)
+// After task is complete
+// - add the following code to "scripts" in package.json
+//    "heroku-postbuild": "yarn migrate up && yarn build",
+// - after that move to pages/index.js file again and scroll until the end of that file for the step 4 instructions.
 
 export async function getAlbums() {
   const albums = await sql`
