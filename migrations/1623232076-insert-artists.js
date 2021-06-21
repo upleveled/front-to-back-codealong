@@ -8,10 +8,6 @@ const artistList = [
 
 exports.up = async function up(sql) {
   // 1. Define a SQL query that INSERT data into table artists from artistList array
-
-  await sql`
-	INSERT INTO artists ${sql(artistList, 'id', 'name')}
-`;
 };
 
 exports.down = async function down(sql) {
