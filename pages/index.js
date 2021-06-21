@@ -38,3 +38,5 @@ export default function Home() {
 // 1. Import the database Util functions from utils/database.js
 // 2. Get the data for the app. (albumList, artistList, genreList, songList)
 // 3. Pass the data to the Page Component through props object
+// 4. modify the code in the Home component to receive the data from database instead of assets
+// 5. remove assets directory and the files inside
