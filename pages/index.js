@@ -32,7 +32,7 @@ export default function Home() {
 //
 // --------------- Step 4 --------------
 //
-// Now we are going to connect our front-end and back-end.
+// Now, we are going to connect our front-end and back-end.
 // Using Get Server Side Props (aka. GSSp) get the app data from the database instead of the assets files.
 //
 // 1. Import the database Util functions from utils/database.js
