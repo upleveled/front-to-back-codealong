@@ -14,4 +14,8 @@ exports.down = async function down(sql) {
   // 2. Define a SQL query that DELETE all data from table artists
 };
 
+// If this step is doing right and your database is properly configured, you can run the next command 
+//
+// yarn migrate up
+// 
 // After the completion of this tasks please move to file utils/database.js to continue with the next step.
