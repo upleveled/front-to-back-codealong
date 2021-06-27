@@ -1,14 +1,12 @@
 import { useState } from 'react';
-import { albumList, artistList, genreList } from '../assets/additionalAssets';
-import { songList } from '../assets/songList';
 import { AudioPlayer } from '../components/AudioPlayer';
 import { FilterInput } from '../components/FilterInput';
 
-export default function Home() {
+export default function Home({ albums, artists, genres, songs }) {
   const [genreFilter, setGenreFilter] = useState('');
   const [artistFilter, setArtistFilter] = useState('');
   const [albumFilter, setAlbumFilter] = useState('');
-  const [activeSong, setActiveSong] = useState(songList[0]);
+  const [activeSong, setActiveSong] = useState();
 
   return (
     <div>
@@ -88,4 +86,22 @@ export default function Home() {
       </div>
     </div>
   );
+}
+
+export async function getServerSideProps() {
+  const { getAlbums, getArtists, getGenres, getSongs } = await import(
+    '../utils/database'
+  );
+  const albums = await getAlbums();
+  const artists = await getArtists();
+  const genres = await getGenres();
+  const songs = await getSongs();
+  return {
+    props: {
+      albums,
+      artists,
+      genres,
+      songs,
+    },
+  };
 }
