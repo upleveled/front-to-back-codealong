@@ -37,12 +37,12 @@ export default function Home({ albums, artists, genres, songs }) {
       </section>
       <div className="song-list">
         <div className="song-header">
-          <div>name</div>
-          <div>album </div>
+          <div>Name</div>
+          <div>Album </div>
           <div>Year </div>
           <div>Artist </div>
-          <div>play</div>
-          <div>genre</div>
+          <div>Play</div>
+          <div>Genre</div>
         </div>
         {songList
           .filter((song) => {
