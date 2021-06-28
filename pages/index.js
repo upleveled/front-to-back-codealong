@@ -17,19 +17,19 @@ export default function Home({ albums, artists, genres, songs }) {
       <AudioPlayer activeSong={activeSong} />
       <section className="filter-section">
         <FilterInput
-          options={genreList}
+          options={genres}
           value={genreFilter}
           filterSetter={setGenreFilter}
           name="genre"
         />
         <FilterInput
-          options={artistList}
+          options={artists}
           value={artistFilter}
           filterSetter={setArtistFilter}
           name="artist"
         />
         <FilterInput
-          options={albumList}
+          options={albums}
           value={albumFilter}
           filterSetter={setAlbumFilter}
           name="album"
@@ -44,7 +44,7 @@ export default function Home({ albums, artists, genres, songs }) {
           <div>Play</div>
           <div>Genre</div>
         </div>
-        {songList
+        {songs
           .filter((song) => {
             let isVisible = true;
             if (genreFilter && genreFilter !== song.genre) {
