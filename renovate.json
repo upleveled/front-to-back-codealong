@@ -2,6 +2,5 @@
   "extends": [
     "github>karlhorky/renovate-config"
   ],
-  "schedule": null,
   "baseBranches": ["main", "solution"]
 }
