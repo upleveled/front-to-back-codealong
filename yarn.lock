@@ -2045,10 +2045,10 @@ nanoid@^3.1.30:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.2.0.tgz#62667522da6673971cca916a6d3eff3f415ff80c"
   integrity sha512-fmsZYa9lpn69Ad5eDn7FMcnnSR+8R34W9qJEijxYhTbfOWzr22n1QxCMzXLK+ODyW2973V3Fux959iQoUxzUIA==
 
-next-pwa@5.4.6:
-  version "5.4.6"
-  resolved "https://registry.yarnpkg.com/next-pwa/-/next-pwa-5.4.6.tgz#67db147631e67076e2767555ab07324e60f4e7cf"
-  integrity sha512-cJVxfn4a1DqwKGP+zhqE9QikqFuUhCYi7wiaucxhFLeShC6DVX1Gy5Qh3HAs1i6VHQcEOnaOwfk0Q9Z08yRkCg==
+next-pwa@5.4.7:
+  version "5.4.7"
+  resolved "https://registry.yarnpkg.com/next-pwa/-/next-pwa-5.4.7.tgz#22e6e3a70e695f6dc58df72d5fb901bb77bfdb0b"
+  integrity sha512-Uc1pOYJ/7tORbi2LoIEbaHz/hEbq06jiGbVuhr+nzHJHjPGFkmF6JfcDKVdbaXbJa1gJass0utPOI+Wrce06Qw==
   dependencies:
     babel-loader "^8.2.3"
     clean-webpack-plugin "^4.0.0"
@@ -2224,10 +2224,10 @@ postcss@8.4.5:
     picocolors "^1.0.0"
     source-map-js "^1.0.1"
 
-postgres@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/postgres/-/postgres-3.0.3.tgz#f863e17e7b2be3b1c775593076d8bed7f67a9a53"
-  integrity sha512-uw6ZIR9LTJUT5f3Wz9JdT9L9U4GGlDjWYgGNSEbJPvqMsY+UUInaf16Oa94lJdjQaft6lhlr3LFl/iPZJoNlkg==
+postgres@3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/postgres/-/postgres-3.0.5.tgz#e94f325b6449d829890774264feeed88491fc563"
+  integrity sha512-/9VVVRG+bzLc/AB6QukEV+SERra2IRduGd8PDz/ZGu+1PQ6+TgCQYvX87GtPfxcYW4XZ58cyurJojnphdazW1g==
 
 pretty-bytes@^5.3.0, pretty-bytes@^5.4.1:
   version "5.6.0"
