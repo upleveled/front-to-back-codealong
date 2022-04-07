@@ -232,10 +232,10 @@ postcss@8.4.5:
     picocolors "^1.0.0"
     source-map-js "^1.0.1"
 
-postgres@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/postgres/-/postgres-3.0.3.tgz#f863e17e7b2be3b1c775593076d8bed7f67a9a53"
-  integrity sha512-uw6ZIR9LTJUT5f3Wz9JdT9L9U4GGlDjWYgGNSEbJPvqMsY+UUInaf16Oa94lJdjQaft6lhlr3LFl/iPZJoNlkg==
+postgres@3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/postgres/-/postgres-3.0.5.tgz#e94f325b6449d829890774264feeed88491fc563"
+  integrity sha512-/9VVVRG+bzLc/AB6QukEV+SERra2IRduGd8PDz/ZGu+1PQ6+TgCQYvX87GtPfxcYW4XZ58cyurJojnphdazW1g==
 
 quick-lru@^5.1.1:
   version "5.1.1"
