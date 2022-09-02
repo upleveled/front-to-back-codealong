@@ -9,7 +9,7 @@
     "migrate": "dotenv ley"
   },
   "dependencies": {
-    "camelcase-keys": "8.0.1",
+    "camelcase-keys": "8.0.2",
     "dotenv-cli": "6.0.0",
     "dotenv-safe": "8.2.0",
     "ley": "0.7.1",
