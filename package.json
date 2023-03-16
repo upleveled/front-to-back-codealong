@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "camelcase-keys": "8.0.2",
-    "dotenv-cli": "7.0.0",
+    "dotenv-cli": "7.1.0",
     "dotenv-safe": "8.2.0",
     "ley": "0.8.1",
     "next": "13.2.4",
