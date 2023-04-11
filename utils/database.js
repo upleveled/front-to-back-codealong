@@ -13,7 +13,7 @@ export async function getArtists() {
 
 // After task is complete
 // - add the following code to "scripts" in package.json
-//    "heroku-postbuild": "yarn migrate up && yarn build",
+//    "heroku-postbuild": "pnpm migrate up && pnpm build",
 // - after that move to pages/index.js file again and scroll until the end of that file for the step 4 instructions.
 
 export async function getAlbums() {
