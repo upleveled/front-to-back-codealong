@@ -27,8 +27,8 @@ dependencies:
     specifier: 2.6.2
     version: 2.6.2
   postgres:
-    specifier: 3.4.0
-    version: 3.4.0
+    specifier: 3.4.1
+    version: 3.4.1
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -2973,8 +2973,9 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
-  /postgres@3.4.0:
-    resolution: {integrity: sha512-d7UtSoCg4hUtzxM9aRi3J8BrM6t0h4bQmgAHG96cDCNpP9CnnWQRdRl7WWNvKs0oOaQU2InGoOi1jETmdZK02g==}
+  /postgres@3.4.1:
+    resolution: {integrity: sha512-Wasjv6WEzrZXbwKByR2RGD7MBfj7VBqco3hYWz8ifzSAp6tb2L6MlmcKFzkmgV1jT7/vKlcSa+lxXZeTdeVMzQ==}
+    engines: {node: '>=12'}
     dev: false
 
   /pretty-bytes@5.6.0:
