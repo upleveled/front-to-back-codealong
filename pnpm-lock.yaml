@@ -24,8 +24,8 @@ dependencies:
     specifier: 5.6.0
     version: 5.6.0(@babel/core@7.21.4)(next@14.1.4)(webpack@5.78.0)
   pg-connection-string:
-    specifier: 2.6.2
-    version: 2.6.2
+    specifier: 2.6.4
+    version: 2.6.4
   postgres:
     specifier: 3.4.4
     version: 3.4.4
@@ -2919,8 +2919,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /pg-connection-string@2.6.2:
-    resolution: {integrity: sha512-ch6OwaeaPYcova4kKZ15sbJ2hKb/VP48ZD2gE7i1J+L4MspCtBMAx8nMgz7bksc7IojCIIWuEhHibSMFH8m8oA==}
+  /pg-connection-string@2.6.4:
+    resolution: {integrity: sha512-v+Z7W/0EO707aNMaAEfiGnGL9sxxumwLl2fJvCQtMn9Fxsg+lPpPkdcyBSv/KFgpGdYkMfn+EI1Or2EHjpgLCA==}
     dev: false
 
   /picocolors@1.0.0:
