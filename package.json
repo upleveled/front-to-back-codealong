@@ -18,8 +18,8 @@
     "next-pwa": "5.6.0",
     "pg-connection-string": "2.6.4",
     "postgres": "3.4.4",
-    "react": "18.3.0",
-    "react-dom": "18.3.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "cacheDirectories": [
     ".next/cache"
