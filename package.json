@@ -13,7 +13,7 @@
     "dotenv-cli": "7.4.2",
     "dotenv-safe": "9.1.0",
     "ley": "0.8.1",
-    "next": "14.2.4",
+    "next": "14.2.5",
     "pg-connection-string": "2.6.4",
     "postgres": "3.4.4",
     "react": "18.3.1",
