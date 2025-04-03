@@ -16,8 +16,8 @@
     "next": "15.2.4",
     "pg-connection-string": "2.7.0",
     "postgres": "3.4.5",
-    "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
   },
   "cacheDirectories": [
     ".next/cache"
