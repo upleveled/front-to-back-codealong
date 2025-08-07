@@ -13,11 +13,11 @@
     "dotenv-cli": "9.0.0",
     "dotenv-safe": "9.1.0",
     "ley": "0.8.1",
-    "next": "15.4.4",
+    "next": "15.4.6",
     "pg-connection-string": "2.9.1",
     "postgres": "3.4.7",
-    "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
   },
   "cacheDirectories": [
     ".next/cache"
