@@ -14,8 +14,8 @@
     "dotenv-safe": "9.1.0",
     "ley": "0.8.1",
     "next": "16.1.5",
-    "pg-connection-string": "2.9.1",
-    "postgres": "3.4.7",
+    "pg-connection-string": "2.10.1",
+    "postgres": "3.4.8",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
